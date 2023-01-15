@@ -6,7 +6,7 @@
 
 .banner-section {
     background: rgba(255, 144, 14, 0.1);
-    ;
+
 }
 
 .nav-bar {
@@ -64,23 +64,19 @@
     color: #fff;
     transition: 0.4s;
 }
-
-.btn a {
+.btn a{
     text-decoration: none;
     color: #fff;
 }
-
-.btn:hover {
+.btn:hover{
     transform: rotate(10deg);
     background: transparent;
     border: 2px solid #000;
     cursor: pointer;
 }
-
-.btn:hover a {
+.btn:hover a{
     color: #000;
 }
-
 .banner-image {
     padding-bottom: 45px;
 }
@@ -88,7 +84,6 @@
 /* Features styles */
 .feature-section {
     margin: 100px 0;
-    ;
 }
 
 .features {
@@ -103,16 +98,13 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
-
-.images img {
+.images img{
     transition: 0.4s;
 }
-
-.images img:hover {
+.images img:hover{
     transform: scale(1.2);
     cursor: pointer;
 }
-
 .features-details {
     margin-left: 70px;
 }
@@ -141,7 +133,6 @@
 
 /* Architecture */
 .architecture {
-    ;
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
@@ -211,26 +202,23 @@
     background: #FF900E;
     transition: 0.3s;
 }
-
-.third-btn a {
+.third-btn a{
     text-decoration: none;
     color: #fff;
 }
-
-.third-btn:hover {
+.third-btn:hover{
     transform: scale(1.1);
-    border-radius: 50%;
+border-radius: 50%;
     background: lightskyblue;
     cursor: pointer;
 }
-
-.third-btn:hover a {
+.third-btn:hover a{
     color: #000;
 }
 
 /* Fact  */
 .fact-section {
-    ;
+
     display: flex;
     justify-content: center;
 }
@@ -262,22 +250,19 @@
     text-align: center;
     transition: 0.4s;
 }
-
-.fact-box h3 {
+.fact-box h3{
     font-size: 35px;
     margin-bottom: 10px;
 }
-
-.fact-box:hover {
+.fact-box:hover{
     background: rgb(168, 253, 253);
     cursor: crosshair;
     transform: scale(1.1);
-    border: 2px solid blue;
+    border: 1px solid blue;
 }
 
 /* Review  */
 .review-section {
-    ;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -309,12 +294,11 @@
     transition: 0.5s;
 }
 
-.review:hover {
+.review:hover{
     background: #fcd3a2;
     transform: scale(1.05);
     cursor: pointer;
 }
-
 .reviewer {
     font-size: 35px;
     margin-bottom: 15px;
@@ -347,7 +331,6 @@
 
 /* Sponsor */
 .sponsor {
-    ;
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
@@ -375,13 +358,12 @@
     transition: 0.3s
 }
 
-.sponsor-image img:hover {
+.sponsor-image img:hover{
     transform: scale(1.2);
 }
 
 /* footer  */
 .footer {
-    ;
     display: flex;
     justify-content: center;
 }
@@ -423,6 +405,9 @@
         padding: 0 20px;
     }
 
+    .banner-image img {
+        width: 100%;
+    }
 
     /* Features styles */
     .features {
